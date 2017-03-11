@@ -11,6 +11,7 @@ public class WifiSpot {
     private String ssid;
     private Date lastUpdated;
     private Location location;
+    private boolean secure;
 
     public WifiSpot() {
     }
@@ -31,5 +32,9 @@ public class WifiSpot {
 
     public Location getLocation() {
         return location;
+    }
+
+    public boolean isSecure() {
+        return secure;
     }
 }
